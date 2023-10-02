@@ -13,7 +13,7 @@ const WriteContract = ({state})=>{
 
     }
 
-    return <>
+    return <> 
     <form onSubmit={writeData} >
         <input id="data">
         </input>

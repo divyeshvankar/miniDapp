@@ -22,3 +22,54 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+/build/
+
+# Ignore development server log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignore .env files containing sensitive information
+.env
+
+# Ignore Truffle build directory
+/build/contracts
+
+# Ignore yarn error logs
+yarn-error.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Thumbs.db on Windows
+Thumbs.db
+
+# Ignore desktop.ini on Windows
+Desktop.ini
+
+# Ignore .npm directories
+.npm
+
+# Ignore .idea directory created by IntelliJ IDE
+.idea/
+
+# Ignore *.iml files
+*.iml
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for yarn
+yarn.lock
